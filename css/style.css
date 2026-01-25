@@ -1,0 +1,108 @@
+/* ===== GLOBAL RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===== BODY ===== */
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #f9fafb);
+    color: #222;
+    line-height: 1.7;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+    background: #0d47a1;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== MAIN CONTAINER ===== */
+.container {
+    max-width: 900px;
+    background: #ffffff;
+    margin: 40px auto;
+    padding: 40px 35px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* ===== HEADINGS ===== */
+h1 {
+    font-size: 38px;
+    color: #0d47a1;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 12px;
+    color: #1565c0;
+    font-size: 22px;
+}
+
+/* ===== PARAGRAPHS ===== */
+p {
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+/* ===== LISTS ===== */
+ul {
+    margin: 15px 0 20px 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+/* ===== HORIZONTAL LINE ===== */
+hr {
+    border: none;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 30px 0;
+}
+
+/* ===== FOOTER TEXT ===== */
+.container p:last-child {
+    margin-bottom: 0;
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 600px) {
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        margin: 20px 10px;
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+}
